@@ -1,0 +1,79 @@
+:root{
+    --Backgound: #000000;
+    --Input-Backgound: #131313;
+    --Botão-Enviar: #0c43b1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--Backgound);
+    font-family: 'Roboto', sans-serif;
+}
+.container-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-login img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.content-login{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-login span{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.content-login form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-login input{
+    width: 80%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Input-Backgound);
+    color: #fff;
+    font-size: 16px;
+}
+.btn-login{
+    width: 80%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--Botão-Enviar) !important;
+}
+.content-login ::placeholder{
+    color: #4b4b4b;
+}
+.content-login a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
