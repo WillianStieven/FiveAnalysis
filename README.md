@@ -8,3 +8,4 @@ Felipe Grigolo
 João Minski 
 Willian Stieven
 Erik Stumpf Ogliari
+Lucas
