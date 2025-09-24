@@ -1,0 +1,325 @@
+/* === CARDS === */
+.card {
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: scaleX(0);
+  transition: transform var(--transition);
+}
+
+.card:hover::before {
+  transform: scaleX(1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border-color: var(--primary-color);
+}
+
+/* === CARD DE PRODUTO === */
+.produto {
+  min-width: 250px;
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.produto::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: scaleX(0);
+  transition: transform var(--transition);
+}
+
+.produto:hover::before {
+  transform: scaleX(1);
+}
+
+.produto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+  border-color: var(--primary-color);
+}
+
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 15px;
+  transition: var(--transition);
+}
+
+.produto:hover img {
+  transform: scale(1.05);
+}
+
+.produto p {
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.produto p:last-child {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* === CARD DE COMPONENTE SIMILAR === */
+.component-card {
+  min-width: 200px;
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.component-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: scaleX(0);
+  transition: transform var(--transition);
+}
+
+.component-card:hover::before {
+  transform: scaleX(1);
+}
+
+.component-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  border-color: var(--primary-color);
+}
+
+.component-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+  transition: var(--transition);
+}
+
+.component-card:hover img {
+  transform: scale(1.05);
+}
+
+.component-card p {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* === CARD DE INFORMAÇÕES === */
+.info-card {
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 25px;
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+
+.info-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.info-card h3 {
+  color: var(--text-primary);
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.info-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.info-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* === CARD DE AVALIAÇÃO === */
+.rating-card {
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.rating-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: scaleX(0);
+  transition: transform var(--transition);
+}
+
+.rating-card:hover::before {
+  transform: scaleX(1);
+}
+
+.rating-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  border-color: var(--primary-color);
+}
+
+.rating-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rating-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* === CARD DE PREÇO === */
+.price-card {
+  background: linear-gradient(135deg, var(--background-card), #1a1a1a);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.price-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.pix-discount {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .produto {
+    min-width: 200px;
+    padding: 15px;
+  }
+
+  .produto img {
+    height: 150px;
+  }
+
+  .component-card {
+    min-width: 150px;
+    padding: 12px;
+  }
+
+  .component-card img {
+    height: 100px;
+  }
+
+  .info-card {
+    padding: 20px;
+  }
+
+  .rating-card {
+    padding: 15px;
+  }
+
+  .price-card {
+    padding: 20px;
+  }
+
+  .price {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .produto {
+    min-width: 180px;
+    padding: 12px;
+  }
+
+  .produto img {
+    height: 120px;
+  }
+
+  .component-card {
+    min-width: 140px;
+    padding: 10px;
+  }
+
+  .component-card img {
+    height: 80px;
+  }
+}
