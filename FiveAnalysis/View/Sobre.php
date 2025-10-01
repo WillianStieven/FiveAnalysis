@@ -69,50 +69,32 @@
       <div class="seta"><i class="bi bi-chevron-left"></i></div>
       <div class="produtos-container">
         <div class="produto">
-          <img src="https://via.placeholder.com/250x200/2563eb/fff?text=CEO" alt="CEO" />
-          <p>João Silva</p>
-          <p><strong>CEO & Fundador</strong></p>
+          <img src="../Assets/img/Minski.jpg" alt="CEO" />
+          <p>Minski</p>
+          <p><strong>Gerente</strong></p>
         </div>
         <div class="produto">
-          <img src="https://via.placeholder.com/250x200/6366f1/fff?text=CTO" alt="CTO" />
-          <p>Maria Santos</p>
-          <p><strong>CTO & Desenvolvedora</strong></p>
+          <img src="../Assets/img/Willian.jpg"  alt="DEV" />
+          <p>Willian Stieven</p>
+          <p><strong>Desenvolvedor</strong></p>
         </div>
         <div class="produto">
-          <img src="https://via.placeholder.com/250x200/10b981/fff?text=Analista" alt="Analista" />
-          <p>Pedro Costa</p>
-          <p><strong>Analista de Hardware</strong></p>
+          <img src="../Assets/img/Felipe.jpg"  alt="DEV" />
+          <p>Felipe Grigolo</p>
+          <p><strong>Desenvolvedor</strong></p>
         </div>
         <div class="produto">
-          <img src="https://via.placeholder.com/250x200/f59e0b/fff?text=Designer" alt="Designer" />
-          <p>Ana Oliveira</p>
-          <p><strong>UX/UI Designer</strong></p>
+          <img src="../Assets/img/Erik.jpg" alt="DEV" />
+          <p>Erik Ogliari</p>
+          <p><strong>Desenvolvedor</strong></p>
+        </div>
+        <div class="produto">
+          <img src="../Assets/img/Lucas.jpg" alt="DEV" />
+          <p>Lucas Eduardo</p>
+          <p><strong>Desenvolvedor</strong></p>
         </div>
       </div>
       <div class="seta"><i class="bi bi-chevron-right"></i></div>
-    </div>
-  </section>
-
-  <!-- Estatísticas -->
-  <section class="produtos">
-    <h2>Números que Nos Orgulham</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 40px;">
-      <div class="rating-card">
-        <div class="rating-label">Anos de Experiência</div>
-        <div class="rating-number">5+</div>
-      </div>
-      <div class="rating-card">
-        <div class="rating-label">Componentes Analisados</div>
-        <div class="rating-number">1000+</div>
-      </div>
-      <div class="rating-card">
-        <div class="rating-label">Usuários Atendidos</div>
-        <div class="rating-number">50K+</div>
-      </div>
-      <div class="rating-card">
-        <div class="rating-label">Satisfação</div>
-        <div class="rating-number">98%</div>
-      </div>
     </div>
   </section>
 
@@ -144,14 +126,19 @@
       </div>
       <div class="contato">
         <h4>Contato</h4>
-        <p>email: grigolodev@gmail.com</p>
+        <ul>
+          <li><a href="#">Email: FiveAnalysis@gmail.com</a></li>
+          <li><a href="#">Telefone: (49) 99898-9898</a></li>
+          <li><a href="#">Efapi, 7199 - Aventureiro, Chapecó - SC - 89219-731</a></li>
+        </ul>
       </div>
       <div class="social">
         <a href="#"><i class="bi bi-linkedin"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
       </div>
     </div>
-    <p class="copyright">Todos os Direitos Reservados a FiveAnalysis.</p>
+    <p class="copyright">Todos os Direitos Reservados a FiveAnalysis. CNPJ: 09.321.222/0001-00</p>
   </footer>
 
   <!-- JavaScript -->

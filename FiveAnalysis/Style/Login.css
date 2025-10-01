@@ -1,14 +1,10 @@
-:root{
-    --Backgound: #000000;
-    --Input-Backgound: #131313;
-    --Botão-Enviar: #0c43b1;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    background-color: var(--Backgound);
-    font-family: 'Roboto', sans-serif;
+body{
+    background-color: black;
 }
 .container-login{
     width: 100%;

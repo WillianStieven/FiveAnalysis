@@ -108,7 +108,7 @@
       <!-- Processador Section -->
       <div class="component-grid active" id="processador">
       <div class="product-card" data-product="ryzen-5600gt">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=AMD+Ryzen+5+5600GT" alt="AMD Ryzen 5 5600GT">
+        <img src="../Assets/img/a1.jpg" alt="AMD Ryzen 5 5600GT">
         <h3>Processador AMD Ryzen 5 5600GT</h3>
         <p>Processador AMD Ryzen 5 5600GT, 3.9GHz (4.4GHz Max Turbo), AM4, 6 Cores, 12 Threads, Cache 35MB</p>
         <div class="price">R$ 839,90</div>
@@ -116,7 +116,7 @@
       </div>
 
       <div class="product-card" data-product="intel-i5-12900p">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=Intel+Core+i5+12900P" alt="Intel Core i5 12900P">
+        <img src="../Assets/img/a1.jpg" alt="Intel Core i5 12900P">
         <h3>Processador Intel Core i5 12900P</h3>
         <p>Processador Intel Core i5 12900P, 2.4GHz (4.6GHz Max Turbo), LGA1700, 12 Cores, 16 Threads</p>
         <div class="price">R$ 774,90</div>
@@ -124,7 +124,7 @@
       </div>
 
       <div class="product-card" data-product="ryzen-7600">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=AMD+Ryzen+5+7600" alt="AMD Ryzen 5 7600">
+        <img src="../Assets/img/a1.jpg" alt="AMD Ryzen 5 7600">
         <h3>Processador AMD Ryzen 5 7600</h3>
         <p>Processador AMD Ryzen 5 7600, 3.8GHz (5.1GHz Max Turbo), AM5, 6 Cores, 12 Threads, Cache 38MB</p>
         <div class="price">R$ 1.439,90</div>
@@ -132,7 +132,7 @@
       </div>
 
       <div class="product-card" data-product="intel-i3">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=Intel+Core+i3" alt="Intel Core i3">
+        <img src="../Assets/img/a1.jpg" alt="Intel Core i3">
         <h3>Processador Intel Core i3</h3>
         <p>Processador Intel Core i3, 3.0GHz (4.0GHz Max Turbo), LGA1700, 4 Cores, 8 Threads</p>
         <div class="price">R$ 654,90</div>
@@ -140,7 +140,7 @@
       </div>
 
       <div class="product-card" data-product="ryzen-3">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=AMD+Ryzen+3" alt="AMD Ryzen 3">
+        <img src="../Assets/img/a1.jpg" alt="AMD Ryzen 3">
         <h3>Processador AMD Ryzen 3</h3>
         <p>Processador AMD Ryzen 3, 3.5GHz (4.0GHz Max Turbo), AM4, 4 Cores, 8 Threads, Cache 18MB</p>
         <div class="price">R$ 479,99</div>
@@ -148,7 +148,7 @@
       </div>
 
       <div class="product-card" data-product="intel-ultra-7">
-        <img src="https://via.placeholder.com/200x150/2563eb/fff?text=Intel+Core+Ultra+7" alt="Intel Core Ultra 7">
+        <img src="../Assets/img/a1.jpg" alt="Intel Core Ultra 7">
         <h3>Processador Intel Core Ultra 7</h3>
         <p>Processador Intel Core Ultra 7, 2.0GHz (4.8GHz Max Turbo), LGA1700, 16 Cores, 22 Threads</p>
         <div class="price">R$ 300,00</div>

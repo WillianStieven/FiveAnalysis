@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- CSS Externo -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/card.css">
+    <link rel="stylesheet" href="../Style/styles.css">
+    <link rel="stylesheet" href="../Style/Global.css">
     
     <style>
         /* Estilos específicos da página de produto */
@@ -155,7 +154,7 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="product-image">
-            <img src="https://via.placeholder.com/400x300/333/fff?text=ASRock+B450M-HDV+R4.0" alt="Placa Mãe ASRock B450M-HDV R4.0">
+            <img src="../Assets/img/a1.jpg" alt="Placa Mãe ASRock B450M-HDV R4.0">
             <svg class="favorite-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
             </svg>
