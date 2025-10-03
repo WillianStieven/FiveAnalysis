@@ -27,20 +27,6 @@ A proposta é oferecer um sistema **completo e intuitivo**, ajudando o usuário 
 
 ---
 
-## 🚀 Como Executar o Projeto  
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/seu-repositorio/five-analysis.git
-   ```
-2. Configure o servidor local (XAMPP, WAMP ou outro servidor PHP).  
-3. Importe o banco de dados disponível na pasta `/database`.  
-4. Abra o navegador e acesse:  
-   ```
-   http://localhost/five-analysis
-   ```
-
----
-
 ## 📚 Status do Projeto  
 🔹 Em desenvolvimento acadêmico  
 🔹 Versão inicial funcional  
