@@ -1,7 +1,7 @@
 # 🖥️ Five Analysis  
 
 **Desenvolvido por:**  
-Felipe Grigolo, Willian Stieven, João Minsky, Lucas e Erik  
+Felipe Grigolo, Willian Stieven, João Minski, Lucas e Erik  
 
 ---
 
