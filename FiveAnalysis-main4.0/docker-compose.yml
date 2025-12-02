@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  # Banco de dados PostgreSQL
+  postgres:
+    image: postgres:14
+    container_name: fiveanalysis_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER:-admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-admin123}
+      POSTGRES_DB: ${DB_NAME:-FiveAnalysis}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - fiveanalysis_network
+
+  # Interface de administração do PostgreSQL
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: fiveanalysis_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@admin.com}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-admin123}
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    networks:
+      - fiveanalysis_network
+
+  # Aplicação PHP/Apache
+  web:
+    build: .
+    container_name: fiveanalysis_web
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - postgres
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=${DB_NAME:-FiveAnalysis}
+      - DB_USER=${DB_USER:-admin}
+      - DB_PASSWORD=${DB_PASSWORD:-admin123}
+    networks:
+      - fiveanalysis_network
+
+volumes:
+  postgres_data:
+
+networks:
+  fiveanalysis_network:
+    driver: bridge
